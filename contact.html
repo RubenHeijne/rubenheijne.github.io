@@ -2,9 +2,8 @@
 <html lang="nl">
 
 <head>
-    <meta name="author" content="Ruben Heijne">
-    <meta name="description"
-        content="Leer alles over reparatiewinkels, de voordelen van repareren, soorten reparaties en de kosten die erbij komen kijken.">
+        <meta name="author" content="Ruben Heijne">
+    <meta name="description" content="Leer alles over reparatiewinkels, de voordelen van repareren, soorten reparaties en de kosten die erbij komen kijken.">
     <meta name="keywords" content="reparatiewinkels, repareren, voordelen, soorten, kosten">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,29 +42,33 @@
             <p>Alvast bedankt!</p>
         </header>
 
-        <fieldset>
-            <legend>Contactformulier</legend>
+        <aside>
+            <fieldset>
+            <form action="/submit" method="post">
+                <legend>
+                    <h2>Contactformulier</h2>
+                </legend>
 
-            <section class="sentbutton">
-                <p>Alle velden met een * zijn verplicht</p>
-            </section>
+                <section id="sentbutton">
+                    <p>Alle velden met een * zijn verplicht</p>
+                </section>
+                <label for="name">Naam*</label>
+                <input type="text" id="name" name="name" required placeholder="Jan Jansen">
 
-            <label for="name">Naam*</label>
-            <input type="text" id="name" name="name" required placeholder="Jan Jansen">
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email" required placeholder="Janjansen@email.nl">
 
-            <label for="email">Email*</label>
-            <input type="email" id="email" name="email" required placeholder="Janjansen@email.nl">
+                <label for="phone">Telefoonnummer</label>
+                <input type="tel" id="phone" name="phone" placeholder="06 12345678">
 
-            <label for="phone">Telefoonnummer</label>
-            <input type="tel" id="phone" name="phone" placeholder="06 12345678">
-
-            <label for="message">Uw bericht*</label>
-            <textarea id="message" name="message" required placeholder="Ik stuur een bericht vanwege..."></textarea>
-
-            <section class="sentbutton">
-                <button type="submit">Versturen</button>
-            </section>
-        </fieldset>
+                <label for="message">Uw bericht*</label>
+                <textarea id="message" name="message" required placeholder="Ik stuur een bericht vanwege..."></textarea>
+                <section id="sentbutton">
+                    <button type="submit">Versturen</button>
+                </section>
+            </form>
+            </fieldset>
+        </aside>
     </section>
 
     <footer>
