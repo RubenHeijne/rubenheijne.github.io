@@ -27,9 +27,12 @@ nav ul li {
     margin-bottom: 10px;
 }
 
+nav ul li a {
+    text-decoration: none;
+}
+
 nav ul li a > span {
     color: white;
-    text-decoration: none;
     font-weight: bold;
 
 }
