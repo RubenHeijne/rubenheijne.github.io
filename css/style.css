@@ -104,11 +104,11 @@ nav ul li a:hover {
     /* Sinds ik geen tabel heb om de nth child op toe te passen, heb ik het zo opgelost */
 
     .nav-links li:nth-child(odd) a {
-        background-color: #FFF;
+        background-color: rgb(16, 52, 166);
     }
 
     .nav-links li:nth-child(even) a {
-        background-color: #CFF;
+        background-color: rgb(75, 105, 255);
     }
 
     .nav-links li a {
