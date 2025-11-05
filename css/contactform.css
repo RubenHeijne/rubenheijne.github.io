@@ -18,7 +18,7 @@ header {
   margin-top: 55px;
 }
 
-aside {
+fieldset {
   padding: 20px;
   width: 40%;
   box-sizing: border-box;
@@ -64,7 +64,7 @@ form button:hover {
   justify-content: center;
 }
 
-#sentbutton {
+.sentbutton {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -81,7 +81,7 @@ form button:hover {
   }
 
   header,
-  aside {
+  fieldset {
     width: 100%;
     margin-top: 0;
     padding: 20px;
