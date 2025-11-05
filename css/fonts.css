@@ -1,12 +1,12 @@
 /* add all items from grading group 3 and 4. Search for items in group 5 that refer to css f.e. z index */
 @import url('https://fonts.googleapis.com/css2?family=Sansation&display=swap');
 
-#h1banner {
+.h1banner {
     font-family: 'Sansation', sans-serif;
     font-size: 3em;
 }
 
-#pbanner {
+.pbanner {
     font-family: 'Robotica', sans-serif;
     font-size: 1em;
     letter-spacing: 2px;
@@ -15,7 +15,7 @@
     word-spacing: 3px;
 }
 
-#pbanner::first-letter {
+.pbanner::first-letter {
     font-size: 1.5em;
     font-weight: bold;
 }
