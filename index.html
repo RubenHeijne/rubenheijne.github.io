@@ -1,0 +1,75 @@
+<!-- add all items from grading group 1 and 2. Search for items in group 5 that refer to css f.e. author attribute value-->
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+</head>
+
+<body>
+    <header>
+            <nav class="navbar" aria-label="Main navigation">
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon" aria-hidden="true">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><img id="logo" src="img/repairlogo.png" alt="Repair logo"></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="reparatiewinkels.html">Wat zijn reparatiewinkels</a></li>
+            <li><a href="voordelen.html">Voordelen</a></li>
+            <li><a href="soorten.html">Soorten</a></li>
+            <li><a href="kosten.html">Kosten</a></li>
+            <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    </header>
+
+    <figure>
+        <img id="banner" src="img/HomepageBanner.jpg" alt="Repareur aan het werk" title="Foto van een man aan het werk">
+        <figcaption>
+            <h1 id="h1banner">Repareren van kapotte apparatuur</h1>
+            <p id="pbanner">Het repareren van <em>kapotte</em> apparatuur kan een goed alternatief voor vervangen zijn. Het kan alleen een minder voor de hand liggend idee zijn, veroorzaakt door een gebrek aan kennis over reparatiemogelijkheden. Daarom kunt u op <strong>deze website</strong> alles lezen over wat repareren inhoud.</p>
+        </figcaption>
+    </figure>
+
+    <section>
+        <a id="clickablelink" href="reparatiewinkels.html">
+            <article id="watzijnreparatiewinkels">
+                <img id="icon" src="img/questionicon.png" alt="vraagteken icoon" title="icoon van een vraagteken">
+                <h2 id="upper">Wat zijn reparatiewinkels</h2>
+            </article>
+        </a>
+    </section>
+
+    <section id="row">
+        <a id="clickablelink" href="voordelen.html">
+            <article id="homepagerow2">
+                <img id="icon" src="img/plusicon.png" alt="plus icon">
+                <h2 id="upper">Voordelen van repareren</h2>
+            </article>
+        </a>
+        <a id="clickablelink" href="soorten.html">
+            <article id="homepagerow2">
+                <img id="icon" src="img/typesicon.png" alt="types icon">
+                <h2 id="upper">Soorten reparaties</h2>
+            </article>
+        </a>
+        <a id="clickablelink" href="kosten.html">
+            <article id="homepagerow2">
+                <img id="icon" src="img/costicon.png" alt="cost icon">
+                <h2 id="upper">Kosten van reparaties</h2>
+            </article>
+        </a>
+    </section>
+
+    <footer>
+        <p>&copy; All rights reserved</p>
+    </footer>
+</body>
