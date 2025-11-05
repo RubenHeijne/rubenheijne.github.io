@@ -66,11 +66,7 @@ form button:hover {
 
 fieldset {
   border: none;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 20px;
-  padding-bottom: 50px;
-  margin: 10px;
+  margin: 100px;
 }
 
 .sentbutton {
