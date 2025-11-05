@@ -1,4 +1,4 @@
-/* add all items from grading group 3 and 4. Search for items in group 5 that refer to css f.e. z index */ 
+/* add all items from grading group 3 and 4. Search for items in group 5 that refer to css f.e. z index */
 
 /* Ik moest minstens 1 comment toevoegen, dus bij deze. Position sticky zorgt ervoor dat de
    navigatiebar altijd zichtbaar zal zijn! */
@@ -31,7 +31,7 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    
+
 }
 
 /* Er stond in de criterea dat je een selected link moest hebben. Ik kon hier niks over
@@ -59,56 +59,56 @@ nav ul li a:hover {
 
 .menu-toggle,
 .menu-icon {
-  display: none;
+    display: none;
 }
 
 
 @media (max-width: 768px) {
-  .menu-toggle {
-    display: none;
-  }
+    .menu-toggle {
+        display: none;
+    }
 
-  .menu-icon {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    cursor: pointer;
-    padding: 10px;
-    margin-right: 20px;
-  }
+    .menu-icon {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        cursor: pointer;
+        padding: 10px;
+        margin-right: 20px;
+    }
 
-  .bar {
-    width: 25px;
-    height: 3px;
-    background-color: white;
-  }
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+    }
 
-  .menu-toggle {
-    display: none;
-  }
+    .menu-toggle {
+        display: none;
+    }
 
-  .menu-toggle:checked ~ .nav-links {
-    display: flex;
-  }
+    .menu-toggle:checked~.nav-links {
+        display: flex;
+    }
 
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    padding-left: 0px;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    background-color: rgb(0, 20, 85);
-  }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        padding-left: 0px;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: rgb(0, 20, 85);
+    }
 
-  .nav-links li a {
-    padding: 15px 20px;
-    border-bottom: 1px solid rgb(0, 20, 85);
-  }
+    .nav-links li a {
+        padding: 15px 20px;
+        border-bottom: 1px solid rgb(0, 20, 85);
+    }
 }
 
-    #upper {
+#upper {
     text-transform: uppercase;
 }
 
@@ -171,12 +171,12 @@ article {
 
 #textarea {
     width: 85%;
-    margin: auto; 
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     text-align: left;
-    gap: 2rem;   
+    gap: 2rem;
 }
 
 #image {
@@ -251,7 +251,7 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-}  
+}
 
 @media (max-width: 768px) {
     nav ul {
@@ -310,7 +310,7 @@ footer {
         width: 150px;
         margin: 10px;
     }
-    
+
     #watzijnreparatiewinkels {
         height: 250px;
         width: 85vw;

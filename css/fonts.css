@@ -1,4 +1,4 @@
-/* add all items from grading group 3 and 4. Search for items in group 5 that refer to css f.e. z index */ 
+/* add all items from grading group 3 and 4. Search for items in group 5 that refer to css f.e. z index */
 @import url('https://fonts.googleapis.com/css2?family=Sansation&display=swap');
 
 #h1banner {
@@ -9,10 +9,10 @@
 #pbanner {
     font-family: 'Robotica', sans-serif;
     font-size: 1em;
-    letter-spacing: 2px;     
-    line-height: 1.5;        
-    text-indent: 15px;       
-    word-spacing: 3px;       
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-indent: 15px;
+    word-spacing: 3px;
 
 }
 
@@ -21,7 +21,7 @@ h1 {
     font-size: 3em;
 }
 
-h2{
+h2 {
     font-family: 'Sansation', sans-serif;
     font-size: 2.2em;
 }
@@ -31,7 +31,7 @@ p {
     font-size: 1.2em;
 }
 
-nav{
+nav {
     font-family: 'Sansation', sans-serif;
     font-size: 1.8em;
 }

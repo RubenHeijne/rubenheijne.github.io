@@ -1,75 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Sansation&display=swap');
 
 section {
-    display: flex;
-    max-width: 85vw;
-    padding: 100px;
-    margin: 0 auto;
-    font-family: Arial, sans-serif;
-    gap: 40px;
+  display: flex;
+  max-width: 85vw;
+  padding: 100px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  gap: 40px;
 }
 
 header {
-    background-color: rgb(16, 52, 166);
-    color: white;
-    padding: 20px;
-    width: 60%;
-    box-sizing: border-box;
-    margin-top: 55px;
+  background-color: rgb(16, 52, 166);
+  color: white;
+  padding: 20px;
+  width: 60%;
+  box-sizing: border-box;
+  margin-top: 55px;
 }
 
 main {
-    padding: 20px;
-    width: 40%;
-    box-sizing: border-box;
+  padding: 20px;
+  width: 40%;
+  box-sizing: border-box;
 }
 
 form label {
-    display: block;
-    margin-top: 15px;
-    font-weight: bold;
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
 }
 
 form input,
 form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
 form button {
-    margin-top: 20px;
-    padding: 20px 40px;
-    background-color: rgb(16, 52, 166);
-    font-family: 'Sansation', sans-serif;
-    font-size: 2.2em;
-    font-weight: bold;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
+  margin-top: 20px;
+  padding: 20px 40px;
+  background-color: rgb(16, 52, 166);
+  font-family: 'Sansation', sans-serif;
+  font-size: 2.2em;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 form button:hover {
-    background-color: white;
-    color: rgb(16, 52, 166);
-    border: 1px solid rgb(16, 52, 166);
+  background-color: white;
+  color: rgb(16, 52, 166);
+  border: 1px solid rgb(16, 52, 166);
 }
 
 #contacttext {
-    padding: 20px;
-    max-height: 350px;
-    justify-content: center;
+  padding: 20px;
+  max-height: 350px;
+  justify-content: center;
 }
 
 #sentbutton {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 @media (max-width: 768px) {
