@@ -101,6 +101,8 @@ nav ul li a:hover {
         background-color: rgb(0, 20, 85);
     }
 
+    /* Sinds ik geen tabel heb om de nth child op toe te passen, heb ik het zo opgelost */
+
     .nav-links li:nth-child(odd) a {
         background-color: #FFF;
     }
