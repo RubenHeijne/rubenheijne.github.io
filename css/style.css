@@ -271,7 +271,7 @@ footer {
       background-color: #222;
       color: #fff;
       padding: 1rem;
-      z-index: 9999; /* ✅ Zorgt dat de banner bovenaan ligt */
+      z-index: 9999;
       box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
     }
 
