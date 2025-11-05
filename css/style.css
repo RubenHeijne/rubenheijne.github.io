@@ -120,7 +120,7 @@ nav ul li a:hover {
     }
 }
 
-#upper {
+.upper {
     text-transform: uppercase;
 }
 
@@ -242,7 +242,7 @@ section {
     padding-top: 8%;
 }
 
-#homepagerow2 {
+.homepagerow2 {
     width: 22vw;
     height: 200px;
     text-align: center;
@@ -260,7 +260,7 @@ section {
     margin: 20px;
 }
 
-#icon2 {
+.icon2 {
     width: 100px;
     height: 100px;
     margin: 0px;
