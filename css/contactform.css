@@ -64,6 +64,12 @@ form button:hover {
   justify-content: center;
 }
 
+fieldset {
+  border: none;
+  padding: 100px;
+  margin: 10px;
+}
+
 .sentbutton {
   display: flex;
   justify-content: center;
