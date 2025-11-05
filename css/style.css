@@ -62,7 +62,6 @@ nav ul li a:hover {
     display: none;
 }
 
-
 @media (max-width: 768px) {
     .menu-toggle {
         display: none;
@@ -87,7 +86,7 @@ nav ul li a:hover {
         display: none;
     }
 
-    .menu-toggle:checked~.nav-links {
+    .menu-toggle:checked ~ .nav-links {
         display: flex;
     }
 
@@ -100,6 +99,14 @@ nav ul li a:hover {
         left: 0;
         width: 100%;
         background-color: rgb(0, 20, 85);
+    }
+
+    .nav-links li:nth-child(odd) a {
+        background-color: #FFF;
+    }
+
+    .nav-links li:nth-child(even) a {
+        background-color: #CFF;
     }
 
     .nav-links li a {
